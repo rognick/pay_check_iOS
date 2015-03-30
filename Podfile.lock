@@ -1,0 +1,13 @@
+PODS:
+  - GPUImage (0.1.6)
+  - TesseractOCRiOS (3.4.0)
+
+DEPENDENCIES:
+  - GPUImage (~> 0.1.6)
+  - TesseractOCRiOS (= 3.4.0)
+
+SPEC CHECKSUMS:
+  GPUImage: cecb0830bb9428f50192042e3c7b53810f51388e
+  TesseractOCRiOS: b2bdfc2c1041114ce146d2086d2376cfae17ff26
+
+COCOAPODS: 0.36.0

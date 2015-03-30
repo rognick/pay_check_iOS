@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		892975871AC9580400243DAA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 892975861AC9580400243DAA /* README.md */; };
+		892975891AC9595300243DAA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 892975881AC9595300243DAA /* .gitignore */; };
+		8943E9E11AC304BA000835CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943E9E01AC304BA000835CB /* AppDelegate.swift */; };
+		8943E9E41AC304BA000835CB /* PayCheckManager.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8943E9E21AC304BA000835CB /* PayCheckManager.xcdatamodeld */; };
+		8943E9E61AC304BA000835CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943E9E51AC304BA000835CB /* ViewController.swift */; };
+		8943E9E91AC304BA000835CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8943E9E71AC304BA000835CB /* Main.storyboard */; };
+		8943E9EB1AC304BA000835CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8943E9EA1AC304BA000835CB /* Images.xcassets */; };
+		8943E9EE1AC304BA000835CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8943E9EC1AC304BA000835CB /* LaunchScreen.xib */; };
+		8943E9FA1AC304BA000835CB /* PayCheckManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8943E9F91AC304BA000835CB /* PayCheckManagerTests.swift */; };
+		8943EA081AC35F64000835CB /* IMG_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA071AC35F64000835CB /* IMG_2.jpg */; };
+		8943EA451AC36934000835CB /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA441AC36934000835CB /* tessdata */; };
+		8943EA471AC36DA9000835CB /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA461AC36DA9000835CB /* CoreLocation.framework */; };
+		8943EA491AC379BA000835CB /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA481AC379BA000835CB /* MobileCoreServices.framework */; };
+		8943EA4B1AC382A8000835CB /* IMG_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA4A1AC382A8000835CB /* IMG_1.jpg */; };
+		8943EA4E1AC3FA1D000835CB /* Check_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA4C1AC3FA1D000835CB /* Check_1.jpg */; };
+		8943EA4F1AC3FA1D000835CB /* Check_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA4D1AC3FA1D000835CB /* Check_2.jpg */; };
+		8943EA541AC40448000835CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA531AC40448000835CB /* AVFoundation.framework */; };
+		8943EA561AC407F0000835CB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA551AC407F0000835CB /* CoreMedia.framework */; };
+		8943EA581AC407FA000835CB /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA571AC407FA000835CB /* CoreVideo.framework */; };
+		8943EA5A1AC40805000835CB /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA591AC40805000835CB /* OpenGLES.framework */; };
+		8943EA5C1AC40810000835CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8943EA5B1AC40810000835CB /* QuartzCore.framework */; };
+		8943EA621AC4375F000835CB /* Check_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8943EA611AC4375F000835CB /* Check_3.jpg */; };
+		8978CF631AC6DDE20099DCD5 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF621AC6DDE20099DCD5 /* SettingsTableViewController.swift */; };
+		8978CF651AC6E1A40099DCD5 /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF641AC6E1A40099DCD5 /* UserViewController.swift */; };
+		8978CF6E1AC6EEA30099DCD5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF6D1AC6EEA30099DCD5 /* User.swift */; };
+		8978CF701AC6F0E30099DCD5 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF6F1AC6F0E30099DCD5 /* Constants.swift */; };
+		8978CF721AC7065F0099DCD5 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF711AC7065F0099DCD5 /* MainViewController.swift */; };
+		8978CF741AC84BD20099DCD5 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8978CF731AC84BD20099DCD5 /* APIClient.swift */; };
+		919446AEC43A9FC77CDC4119 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7041527E6F06646EF16BA251 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8943E9F41AC304BA000835CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8943E9D31AC304B9000835CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8943E9DA1AC304B9000835CB;
+			remoteInfo = PayCheckManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		149D3ED99B3BB8E24123F392 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		7041527E6F06646EF16BA251 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		892975861AC9580400243DAA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		892975881AC9595300243DAA /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		8943E9DB1AC304B9000835CB /* PayCheckManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PayCheckManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8943E9DF1AC304BA000835CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8943E9E01AC304BA000835CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8943E9E31AC304BA000835CB /* PayCheckManager.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PayCheckManager.xcdatamodel; sourceTree = "<group>"; };
+		8943E9E51AC304BA000835CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8943E9E81AC304BA000835CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8943E9EA1AC304BA000835CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8943E9ED1AC304BA000835CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8943E9F31AC304BA000835CB /* PayCheckManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PayCheckManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8943E9F81AC304BA000835CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8943E9F91AC304BA000835CB /* PayCheckManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayCheckManagerTests.swift; sourceTree = "<group>"; };
+		8943EA031AC3426C000835CB /* PayCheckManager-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayCheckManager-Bridging-Header.h"; sourceTree = "<group>"; };
+		8943EA071AC35F64000835CB /* IMG_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_2.jpg; sourceTree = "<group>"; };
+		8943EA441AC36934000835CB /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		8943EA461AC36DA9000835CB /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		8943EA481AC379BA000835CB /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		8943EA4A1AC382A8000835CB /* IMG_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1.jpg; sourceTree = "<group>"; };
+		8943EA4C1AC3FA1D000835CB /* Check_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Check_1.jpg; sourceTree = "<group>"; };
+		8943EA4D1AC3FA1D000835CB /* Check_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Check_2.jpg; sourceTree = "<group>"; };
+		8943EA511AC403ED000835CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8943EA531AC40448000835CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		8943EA551AC407F0000835CB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		8943EA571AC407FA000835CB /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		8943EA591AC40805000835CB /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		8943EA5B1AC40810000835CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		8943EA611AC4375F000835CB /* Check_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Check_3.jpg; sourceTree = "<group>"; };
+		8978CF621AC6DDE20099DCD5 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		8978CF641AC6E1A40099DCD5 /* UserViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		8978CF6D1AC6EEA30099DCD5 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8978CF6F1AC6F0E30099DCD5 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8978CF711AC7065F0099DCD5 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		8978CF731AC84BD20099DCD5 /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		8978CF751AC8A0D50099DCD5 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
+		EFDD7E87531312EABF33697A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8943E9D81AC304B9000835CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8943EA5C1AC40810000835CB /* QuartzCore.framework in Frameworks */,
+				8943EA5A1AC40805000835CB /* OpenGLES.framework in Frameworks */,
+				8943EA581AC407FA000835CB /* CoreVideo.framework in Frameworks */,
+				8943EA561AC407F0000835CB /* CoreMedia.framework in Frameworks */,
+				8943EA541AC40448000835CB /* AVFoundation.framework in Frameworks */,
+				8943EA491AC379BA000835CB /* MobileCoreServices.framework in Frameworks */,
+				8943EA471AC36DA9000835CB /* CoreLocation.framework in Frameworks */,
+				919446AEC43A9FC77CDC4119 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8943E9F01AC304BA000835CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328FC69052F68506AE02B4A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				149D3ED99B3BB8E24123F392 /* Pods.debug.xcconfig */,
+				EFDD7E87531312EABF33697A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8943E9D21AC304B9000835CB = {
+			isa = PBXGroup;
+			children = (
+				892975881AC9595300243DAA /* .gitignore */,
+				892975861AC9580400243DAA /* README.md */,
+				8943E9DD1AC304B9000835CB /* PayCheckManager */,
+				8943E9F61AC304BA000835CB /* PayCheckManagerTests */,
+				8943E9DC1AC304B9000835CB /* Products */,
+				328FC69052F68506AE02B4A7 /* Pods */,
+				EFA0717196A09EBB62D5BF3B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8943E9DC1AC304B9000835CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9DB1AC304B9000835CB /* PayCheckManager.app */,
+				8943E9F31AC304BA000835CB /* PayCheckManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8943E9DD1AC304B9000835CB /* PayCheckManager */ = {
+			isa = PBXGroup;
+			children = (
+				8978CF661AC6E40E0099DCD5 /* Models */,
+				8978CF5F1AC6DD2C0099DCD5 /* Data */,
+				8978CF5E1AC6DCFF0099DCD5 /* ViewControllers */,
+				8943EA501AC3FA26000835CB /* Check_Image */,
+				8943EA441AC36934000835CB /* tessdata */,
+				8943E9E01AC304BA000835CB /* AppDelegate.swift */,
+				8943E9E71AC304BA000835CB /* Main.storyboard */,
+				8943E9EA1AC304BA000835CB /* Images.xcassets */,
+				8943E9EC1AC304BA000835CB /* LaunchScreen.xib */,
+				8943EA031AC3426C000835CB /* PayCheckManager-Bridging-Header.h */,
+				8943E9DE1AC304BA000835CB /* Supporting Files */,
+				8978CF731AC84BD20099DCD5 /* APIClient.swift */,
+				8978CF751AC8A0D50099DCD5 /* MyPlayground.playground */,
+			);
+			path = PayCheckManager;
+			sourceTree = "<group>";
+		};
+		8943E9DE1AC304BA000835CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9DF1AC304BA000835CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8943E9F61AC304BA000835CB /* PayCheckManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9F91AC304BA000835CB /* PayCheckManagerTests.swift */,
+				8943E9F71AC304BA000835CB /* Supporting Files */,
+			);
+			path = PayCheckManagerTests;
+			sourceTree = "<group>";
+		};
+		8943E9F71AC304BA000835CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9F81AC304BA000835CB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8943EA501AC3FA26000835CB /* Check_Image */ = {
+			isa = PBXGroup;
+			children = (
+				8943EA071AC35F64000835CB /* IMG_2.jpg */,
+				8943EA4A1AC382A8000835CB /* IMG_1.jpg */,
+				8943EA4C1AC3FA1D000835CB /* Check_1.jpg */,
+				8943EA4D1AC3FA1D000835CB /* Check_2.jpg */,
+				8943EA611AC4375F000835CB /* Check_3.jpg */,
+			);
+			name = Check_Image;
+			sourceTree = "<group>";
+		};
+		8978CF5E1AC6DCFF0099DCD5 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9E51AC304BA000835CB /* ViewController.swift */,
+				8978CF621AC6DDE20099DCD5 /* SettingsTableViewController.swift */,
+				8978CF641AC6E1A40099DCD5 /* UserViewController.swift */,
+				8978CF711AC7065F0099DCD5 /* MainViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		8978CF5F1AC6DD2C0099DCD5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				8943E9E21AC304BA000835CB /* PayCheckManager.xcdatamodeld */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
+		8978CF661AC6E40E0099DCD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8978CF6D1AC6EEA30099DCD5 /* User.swift */,
+				8978CF6F1AC6F0E30099DCD5 /* Constants.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EFA0717196A09EBB62D5BF3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8943EA5B1AC40810000835CB /* QuartzCore.framework */,
+				8943EA591AC40805000835CB /* OpenGLES.framework */,
+				8943EA571AC407FA000835CB /* CoreVideo.framework */,
+				8943EA551AC407F0000835CB /* CoreMedia.framework */,
+				8943EA531AC40448000835CB /* AVFoundation.framework */,
+				8943EA511AC403ED000835CB /* CoreGraphics.framework */,
+				8943EA481AC379BA000835CB /* MobileCoreServices.framework */,
+				8943EA461AC36DA9000835CB /* CoreLocation.framework */,
+				7041527E6F06646EF16BA251 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8943E9DA1AC304B9000835CB /* PayCheckManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8943E9FD1AC304BA000835CB /* Build configuration list for PBXNativeTarget "PayCheckManager" */;
+			buildPhases = (
+				4E0FD25CAF4EC8594A2F9A88 /* Check Pods Manifest.lock */,
+				8943E9D71AC304B9000835CB /* Sources */,
+				8943E9D81AC304B9000835CB /* Frameworks */,
+				8943E9D91AC304B9000835CB /* Resources */,
+				3C2717B9EBF0137A48008DAF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PayCheckManager;
+			productName = PayCheckManager;
+			productReference = 8943E9DB1AC304B9000835CB /* PayCheckManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8943E9F21AC304BA000835CB /* PayCheckManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8943EA001AC304BA000835CB /* Build configuration list for PBXNativeTarget "PayCheckManagerTests" */;
+			buildPhases = (
+				8943E9EF1AC304BA000835CB /* Sources */,
+				8943E9F01AC304BA000835CB /* Frameworks */,
+				8943E9F11AC304BA000835CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8943E9F51AC304BA000835CB /* PBXTargetDependency */,
+			);
+			name = PayCheckManagerTests;
+			productName = PayCheckManagerTests;
+			productReference = 8943E9F31AC304BA000835CB /* PayCheckManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8943E9D31AC304B9000835CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Rogojan Nicolae";
+				TargetAttributes = {
+					8943E9DA1AC304B9000835CB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					8943E9F21AC304BA000835CB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 8943E9DA1AC304B9000835CB;
+					};
+				};
+			};
+			buildConfigurationList = 8943E9D61AC304B9000835CB /* Build configuration list for PBXProject "PayCheckManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8943E9D21AC304B9000835CB;
+			productRefGroup = 8943E9DC1AC304B9000835CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8943E9DA1AC304B9000835CB /* PayCheckManager */,
+				8943E9F21AC304BA000835CB /* PayCheckManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8943E9D91AC304B9000835CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				892975891AC9595300243DAA /* .gitignore in Resources */,
+				8943E9E91AC304BA000835CB /* Main.storyboard in Resources */,
+				8943EA4F1AC3FA1D000835CB /* Check_2.jpg in Resources */,
+				8943EA4E1AC3FA1D000835CB /* Check_1.jpg in Resources */,
+				8943E9EE1AC304BA000835CB /* LaunchScreen.xib in Resources */,
+				8943EA451AC36934000835CB /* tessdata in Resources */,
+				8943EA081AC35F64000835CB /* IMG_2.jpg in Resources */,
+				8943EA4B1AC382A8000835CB /* IMG_1.jpg in Resources */,
+				8943E9EB1AC304BA000835CB /* Images.xcassets in Resources */,
+				8943EA621AC4375F000835CB /* Check_3.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8943E9F11AC304BA000835CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3C2717B9EBF0137A48008DAF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4E0FD25CAF4EC8594A2F9A88 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8943E9D71AC304B9000835CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8978CF631AC6DDE20099DCD5 /* SettingsTableViewController.swift in Sources */,
+				8978CF651AC6E1A40099DCD5 /* UserViewController.swift in Sources */,
+				892975871AC9580400243DAA /* README.md in Sources */,
+				8978CF6E1AC6EEA30099DCD5 /* User.swift in Sources */,
+				8943E9E61AC304BA000835CB /* ViewController.swift in Sources */,
+				8978CF701AC6F0E30099DCD5 /* Constants.swift in Sources */,
+				8943E9E11AC304BA000835CB /* AppDelegate.swift in Sources */,
+				8943E9E41AC304BA000835CB /* PayCheckManager.xcdatamodeld in Sources */,
+				8978CF721AC7065F0099DCD5 /* MainViewController.swift in Sources */,
+				8978CF741AC84BD20099DCD5 /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8943E9EF1AC304BA000835CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8943E9FA1AC304BA000835CB /* PayCheckManagerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8943E9F51AC304BA000835CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8943E9DA1AC304B9000835CB /* PayCheckManager */;
+			targetProxy = 8943E9F41AC304BA000835CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8943E9E71AC304BA000835CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8943E9E81AC304BA000835CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8943E9EC1AC304BA000835CB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8943E9ED1AC304BA000835CB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8943E9FB1AC304BA000835CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8943E9FC1AC304BA000835CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8943E9FE1AC304BA000835CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 149D3ED99B3BB8E24123F392 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PayCheckManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayCheckManager/PayCheckManager-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8943E9FF1AC304BA000835CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFDD7E87531312EABF33697A /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = PayCheckManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PayCheckManager/PayCheckManager-Bridging-Header.h";
+			};
+			name = Release;
+		};
+		8943EA011AC304BA000835CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayCheckManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCheckManager.app/PayCheckManager";
+			};
+			name = Debug;
+		};
+		8943EA021AC304BA000835CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PayCheckManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PayCheckManager.app/PayCheckManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8943E9D61AC304B9000835CB /* Build configuration list for PBXProject "PayCheckManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8943E9FB1AC304BA000835CB /* Debug */,
+				8943E9FC1AC304BA000835CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8943E9FD1AC304BA000835CB /* Build configuration list for PBXNativeTarget "PayCheckManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8943E9FE1AC304BA000835CB /* Debug */,
+				8943E9FF1AC304BA000835CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8943EA001AC304BA000835CB /* Build configuration list for PBXNativeTarget "PayCheckManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8943EA011AC304BA000835CB /* Debug */,
+				8943EA021AC304BA000835CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8943E9E21AC304BA000835CB /* PayCheckManager.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8943E9E31AC304BA000835CB /* PayCheckManager.xcdatamodel */,
+			);
+			currentVersion = 8943E9E31AC304BA000835CB /* PayCheckManager.xcdatamodel */;
+			path = PayCheckManager.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8943E9D31AC304B9000835CB /* Project object */;
+}
